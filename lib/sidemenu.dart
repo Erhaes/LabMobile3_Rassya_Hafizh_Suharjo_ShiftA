@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas3mobile/about_page.dart';
 import 'package:tugas3mobile/home_page.dart';
 
 class SideMenu extends StatelessWidget {
@@ -21,6 +22,19 @@ class SideMenu extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => const HomePage(),
+                    ),
+                  );
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.info),
+              title: const Text('About'),
+              onTap: () {
+                //navigasi ke halaman settings
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AboutPage(),
                     ),
                   );
               },
