@@ -71,7 +71,7 @@ class _LoginPageState extends State<LoginPage> {
             ElevatedButton(
               child: const Text('Login'), 
               onPressed: () {
-                if (_usernameController.text=='admin' && _passwordController=='admin') {
+                if (_usernameController.text == 'admin' && _passwordController.text == 'admin') {
                   //save username
                   _saveUsername();
                   //show Alert
