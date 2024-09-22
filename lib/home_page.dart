@@ -25,9 +25,10 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home Page'),
+        backgroundColor: Color.fromARGB(255, 37, 226, 176),
       ),
       body: Center(
-        child: Text('Ini adalah halaman user $namauser'),
+        child: Text('Selamat datang $namauser'),
       ),
       drawer: const SideMenu(),
     );

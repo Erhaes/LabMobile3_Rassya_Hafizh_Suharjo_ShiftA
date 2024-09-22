@@ -8,10 +8,14 @@ class SideMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Drawer(
+      backgroundColor: Color.fromARGB(255, 37, 226, 176),
       child: ListView(
         children: [
           const DrawerHeader(
-            child: Text('Sidemenu')
+            child: Icon(
+              Icons.person,
+              size: 100,
+            ),
             ),
             ListTile(
               leading: const Icon(Icons.home),

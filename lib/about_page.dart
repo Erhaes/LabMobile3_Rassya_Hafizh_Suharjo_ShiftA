@@ -9,6 +9,7 @@ class AboutPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('About Page'),
+        backgroundColor: Color.fromARGB(255, 37, 226, 176),
       ),
       body: const Center(
         child: Text('Ini adalah halaman about'),
