@@ -20,3 +20,11 @@ SHIFT   : A (BARU)
 11. HomePage menampilkan text "selamat datang (username)" dan menampilkan juga sidebar yang diambil dari SideMenu.
 12. Pada sidemenu yang merupakan stateless widget yang tidak berubah statenya terdapat list yang masing - masing mengarahkan ke halaman yang sesuai nama misal home ke HomePage dan About ke AboutPage menggunakan navigator push.
 13. Pada halaman about menampilkan kurang lebih sama seperti homepage dengan sidebar dari SideMenu
+
+## Screenshot
+![Login](login.jpg)
+![Alert Benar](alertbenar.jpg)
+![Alert Salah](alertsalah.jpg)
+![Home Page](home.jpg)
+![Sidebar](sidebar.jpg)
+![About Page](about.jpg)
