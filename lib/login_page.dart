@@ -31,7 +31,8 @@ class _LoginPageState extends State<LoginPage> {
         hintText: placeholder,
         border: OutlineInputBorder(
           borderSide: BorderSide(
-            color: Color.fromARGB(255, 37, 226, 176),
+            // color: Color.fromARGB(255, 37, 226, 176),
+            color: Color.fromRGBO(193, 225, 193, 1),
             width: 2.0,
           ),
           borderRadius: BorderRadius.circular(20),
@@ -46,7 +47,8 @@ class _LoginPageState extends State<LoginPage> {
      builder: (context){
       return AlertDialog(
         title: Text(pesan),
-        backgroundColor: Color.fromARGB(255, 37, 226, 176),
+        // backgroundColor: Color.fromARGB(255, 37, 226, 176),
+        backgroundColor: Color.fromRGBO(193, 225, 193, 1),
         actions: [
           TextButton(
             child: const Text('Ok'),
@@ -69,13 +71,15 @@ class _LoginPageState extends State<LoginPage> {
 
       appBar: AppBar(
         title: const Text('Login'),
-        backgroundColor: const Color.fromARGB(255, 37, 226, 176),
+        // backgroundColor: const Color.fromARGB(255, 37, 226, 176),
+        backgroundColor: Color.fromRGBO(193, 225, 193, 1), //pastel green
       ),
       body: Container(
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          // color: const Color.fromARGB(255, 148, 232, 131),
+          // color: const Color.fromARGB(255, 148, 232, 131), //warna lama
           // color: const Color.fromARGB(255, 9, 231, 224),
+          color: Color.fromRGBO(250, 248, 246, 1),//pastel white
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -86,11 +90,12 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(height: 15,),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 37, 226, 176),
+                // backgroundColor: const Color.fromARGB(255, 37, 226, 176),
+                backgroundColor: Color.fromRGBO(193, 225, 193, 1),
               ),
               child: const Text('Login'), 
               onPressed: () {
-                if (_usernameController.text == 'admin' && _passwordController.text == 'admin') {
+                if (_usernameController.text == 'rassya' && _passwordController.text == 'admin') {
                   //save username
                   _saveUsername();
                   //show Alert

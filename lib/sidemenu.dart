@@ -8,7 +8,8 @@ class SideMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Drawer(
-      backgroundColor: Color.fromARGB(255, 37, 226, 176),
+      // backgroundColor: Color.fromARGB(255, 37, 226, 176),
+      backgroundColor: Color.fromRGBO(193, 225, 193, 1),
       child: ListView(
         children: [
           const DrawerHeader(

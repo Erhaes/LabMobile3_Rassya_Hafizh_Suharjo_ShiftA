@@ -24,11 +24,15 @@ class _HomePageState extends State<HomePage> {
     _loadUsername();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Page'),
-        backgroundColor: Color.fromARGB(255, 37, 226, 176),
+        title: const Text('Home'),
+        // backgroundColor: Color.fromARGB(255, 37, 226, 176),
+        backgroundColor: Color.fromRGBO(193, 225, 193, 1),
       ),
-      body: Center(
+      body: Container(
+        color: Color.fromRGBO(250, 248, 246, 1),
+        child: Center(
         child: Text('Selamat datang $namauser'),
+        ),
       ),
       drawer: const SideMenu(),
     );
