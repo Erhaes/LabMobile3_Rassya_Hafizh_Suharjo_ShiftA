@@ -14,7 +14,12 @@ class AboutPage extends StatelessWidget {
       body: Container(
         color: Color.fromRGBO(250, 248, 246, 1),
         child: const Center(
-        child: Text('Ini adalah halaman about'),
+        child: Text(
+          'Ini adalah halaman about',
+          style: TextStyle(
+            fontSize: 26,
+          ),
+        ),
       ),
       ),
       drawer: const SideMenu(),

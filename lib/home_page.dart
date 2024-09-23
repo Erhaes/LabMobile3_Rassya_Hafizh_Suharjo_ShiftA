@@ -31,7 +31,12 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         color: Color.fromRGBO(250, 248, 246, 1),
         child: Center(
-        child: Text('Selamat datang $namauser'),
+        child: Text(
+          'Selamat datang $namauser',
+          style: TextStyle(
+            fontSize: 26,
+          ),
+        ),
         ),
       ),
       drawer: const SideMenu(),
